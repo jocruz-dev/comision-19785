@@ -1,14 +1,3 @@
-.azul {
-  color: blue;
-}
-
-.navBar{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: black;
-  color: white;
-}
 
 .App {
   text-align: center;

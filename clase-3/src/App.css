@@ -1,15 +1,6 @@
-.azul {
-  color: blue;
+.verde {
+  color: green;
 }
-
-.navBar{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: black;
-  color: white;
-}
-
 .App {
   text-align: center;
 }

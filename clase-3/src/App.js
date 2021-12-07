@@ -1,25 +1,25 @@
 import React from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBarComponent from './components/NavBar'
-import Shell from './components/Shell';
 
 
 function App() {
+/**
+ * Formas de meter estilos
+ * Inline <h1 style={styles}>ROJO</h1>
+        <h1 style={{ color: "blue"}}>AZUL</h1>
+   
+   Desde archivo CSS <h1 className="verde">VERDE</h1>
+ */
+
+  const styles = {
+    color: "red"
+  }
   return (
-    <React.Fragment className="App">
-        <NavBarComponent >
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
-        </NavBarComponent>
-        <Shell>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
-        </Shell>
+    <React.Fragment >
+        <h1 style={styles}>ROJO</h1>
+        <h1 style={{ color: "blue"}}>AZUL</h1>
+        <h1 className="verde">VERDE</h1>
     </React.Fragment>
   );
 }

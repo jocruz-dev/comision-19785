@@ -8,18 +8,7 @@ import Shell from './components/Shell';
 function App() {
   return (
     <React.Fragment className="App">
-        <NavBarComponent >
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
-        </NavBarComponent>
-        <Shell>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
-        </Shell>
+        <div>Tu Código de React</div>
     </React.Fragment>
   );
 }
