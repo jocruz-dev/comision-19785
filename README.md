@@ -47,3 +47,21 @@
 - COmprender como aplicar propiedades, eventos, estados y ciclos de vida
 
 ### EJERCICIO Crear componentes con ciclos de vida
+
+------
+
+# CLase 6 Promises, asincronia y MAP
+
+- Comprender los fundamentos de las promises y los procesos asincronos
+- Aprender a usar la función MAP para creación de listas
+
+### EJERCICIO Crear una lista que se despliegue con un cambio de un resultado de una Promise
+
+------
+
+# CLase 7 Consumiendo API's
+
+- Analizar las partes de una petición HTTPS
+- Aprender a consumir un servicio REST
+
+### EJERCICIO Consumir un servicio REST y pintar los resultados en una lista con un MAP
