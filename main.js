@@ -30,14 +30,18 @@ const [aux1, aux2] = obj
 
 // Spread
 
-const arr = [1,2,3,4,5]
+// const arr = [1,2,3,4,5]
 
-let arrAux = [...arr]
+// let arrAux = [...arr]
 
-console.log(arrAux)
+// console.log(arrAux)
 
-const objAux = {el: "test", el2: "test2"}
+// const objAux = {el: "test", el2: "test2"}
 
-var {el: variable} = objAux
+// var {el: variable} = objAux
 
-console.log(variable)
+// console.log(variable)
+
+const pro = fetch("https://rickandmortyapi.com/api/character")
+
+console.log(pro)
