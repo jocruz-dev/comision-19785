@@ -7,8 +7,8 @@ import '../styles/NavBarStyles.css'
 
 function NavBarComponent(props){
     
-    const [panchita, setPanchita] = useState("ESTADO")
-    const [state, setState] = useState(1)
+    const [panchita, setPanchita] = useState("INICIO")
+    const [state, setState] = useState("Star Wars")
     
     const handleClick = ()=>{
         setPanchita("CAMBIE :D")
@@ -16,20 +16,20 @@ function NavBarComponent(props){
 
 
     return (
-    <Navbar bg="dark" variant="dark">
-            <Container>
-                <Navbar.Brand href="#home" >{panchita}</Navbar.Brand>
-                    <Nav className="me-auto">
-                    <Nav.Link href="#home">{state}</Nav.Link>
-                    <Nav.Link href="#ejemplo">
-                        <Common.TitleLabel text="Ejemplo" className="color-texto-nav"></Common.TitleLabel>
-                        </Nav.Link>
-                    <Nav.Link><button onClick={handleClick}>CLICK</button></Nav.Link>
-                    </Nav>
+        <Navbar bg="dark" variant="dark">
+        <Container>
+            <Navbar.Brand href="#home" >{panchita}</Navbar.Brand>
+                <Nav className="me-auto">
+                <Nav.Link href="#home">{state}</Nav.Link>
+                <Nav.Link href="#ejemplo">
+                    <Common.TitleLabel text="Ejemplo" className="color-texto-nav"></Common.TitleLabel>
+                    </Nav.Link>
+                <Nav.Link><button onClick={handleClick}>CLICK</button></Nav.Link>
+                </Nav>
 
-                
-            </Container>
-   </Navbar>
+            
+        </Container>
+</Navbar>
     )
 }
 

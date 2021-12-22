@@ -10,12 +10,17 @@ import Item from './components/Item'
 
 function App() {
 
-
   
   return (
-    <>
-      <ItemListContainer></ItemListContainer>
-    </>
+    <BrowserRouter>
+        <NavBarComponent />
+          <Routes>
+            <Route exact path="/" element={<ItemListContainer></ItemListContainer>}></Route>
+            <Route exact path="/item/:name" element={<Item></Item>}></Route>
+            <Route exact path="/category/:name" element={<ItemListContainer></ItemListContainer>}></Route>
+            <Route></Route>
+          </Routes>
+    </BrowserRouter>
   );
 }
 
