@@ -65,3 +65,17 @@
 - Aprender a consumir un servicio REST
 
 ### EJERCICIO Consumir un servicio REST y pintar los resultados en una lista con un MAP
+
+# CLase 8 ROuting y navegacion
+
+- Comprender el sistema de rutas de react-routing
+- Entender las partes de las rutas
+
+### EJERCICIO Armar la estructura de su proyecto con rutas y utilizarlas para pintar un detalle de item
+
+# CLase 9 Eventos
+
+- Comprender los detalles de los eventos
+- Entender el flujo de información de los datos en una aplicación de React
+
+### EJERCICIO Crear un evento que pueda ser consumido por el padre y ejecute una acción
